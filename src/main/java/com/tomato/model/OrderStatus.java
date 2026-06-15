@@ -1,0 +1,14 @@
+package com.tomato.model;
+
+public enum OrderStatus {
+    CREATED,
+    PAYMENT_FAILED,
+    PLACED,
+    RESTAURANT_CONFIRMED,
+    RESTAURANT_REJECTED,
+    PREPARING,
+    READY_FOR_PICKUP,
+    OUT_FOR_DELIVERY,
+    DELIVERED,
+    CANCELLED
+}
